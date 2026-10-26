@@ -1,0 +1,27 @@
+/* Original ZGU palette, with the GSAP layout retained. */
+:root{--ink:#1d3754;--mint:#2bc6c5;--paper:#fff;--line:#c7d7dd;--muted:#638495;--deep:#1d3754}
+body{background:#fff;color:#1d3754}::selection{background:#2bc6c5;color:#1d3754}
+header,.community{background:#1d3754}.navigation a{color:#fff}.navigation a:hover,.navigation [aria-current]{color:#a8eee8}
+.navigation a:last-child{color:#a8eee8}.primary{background:#2bc6c5;color:#102f49}.primary:hover{background:#65e3de}
+.hero{background:#102844 url('/zgu/hero-bg.jpg') center/cover}.hero:before{background:linear-gradient(90deg,#102844c9 0%,#1028448a 48%,#10284426 100%)}
+.hero:after{opacity:.45}.hero h1{font-size:clamp(40px,4.15vw,61px);font-weight:800;line-height:1.12;letter-spacing:-.045em}
+.hero h1 em{color:#60e1d9;font-weight:800}.hero-copy>p{color:#e2edf4}.hero .eyebrow{color:#a8eee8}.hero-actions .text-link{color:#fff}
+.hero-caption{background:#1d375469;border-color:#bfd1df4d;color:#bfd1df}.hero-caption b{color:#fff}.caption-dot{background:#2bc6c5}
+.orbit{border-color:#b5e7ed59}.orbit-inner{border-color:#b5e7ed45}.polar-compass>span:not(.coordinate),.coordinate{color:#d5e9ef}
+.mission,.page-title{background:#edf5f5}.mission h2 span{color:#638495}.mission p,.intro-grid p,.faq p{color:#5d7586}
+.eyebrow{color:#397385}.eyebrow.light{color:#a8eee8}.muted{color:#638495}
+.project-card.aqua{background:#2bc6c5;color:#123950}.project-card.blue{background:#009bde;color:#fff}
+.project-card.navy{background:#1d3754;color:#fff}.project-card.orange{background:#ef7d00;color:#fff}
+.project-card p{opacity:1}.project-card.blue p,.project-card.blue .card-top,.project-card.blue .card-link{color:#082e46}
+.project-card.orange p,.project-card.orange .card-top,.project-card.orange .card-link{color:#162f43}
+.project-card.blue .card-link,.project-card.orange .card-link{border-color:#173b4440}.project-card.blue .card-link span,.project-card.orange .card-link span{border-color:#173b4460}
+.project-card.navy .card-link{border-color:#ffffff45}.project-card.navy p{color:#e4edf5}.project-card.aqua p{color:#123950}
+.mechanism{background:#f3f6f7}.steps{border-color:#c7d7dd}.steps-progress{background:#009bde}.steps article:before{background:#009bde;box-shadow:0 0 0 5px #f3f6f7}
+.steps article>span{color:#397385}.steps p{color:#5b7384}.community p{color:#bfd1df}.community-mark{color:#2bc6c5}
+.community .white{background:#fff;color:#1d3754}.community-mark small{color:#bfd1df}.news-label{color:#397385}.news-card p{color:#5c7486}
+.cta{background:#e6f4f3}.cta h2 em{color:#397385}.cta .button{background:#2bc6c5;color:#102f49}.cta .button:hover{background:#65e3de}
+footer{background:#132c45}.wordmark{color:#63dfd9}.footer-top>div>a:not(.wordmark){color:#bfd1df}.footer-top>div>p{color:#b2c8d8}
+.footer-bottom{color:#a0b9ca}.info-panel{background:#1d3754}.info-panel.pale,.empty-state{background:#edf5f5;color:#1d3754}
+.project-detail>.aqua{background:#2bc6c5;color:#123950}.project-detail>.blue{background:#009bde;color:#fff}.project-detail>.navy{background:#1d3754;color:#fff}.project-detail>.orange{background:#ef7d00;color:#fff}
+dialog{background:#fff;color:#1d3754}dialog p{color:#5d7586}.reading-progress{background:#2bc6c5}
+@media(max-width:760px){.hero h1{font-size:clamp(30px,7.1vw,48px);line-height:1.12;letter-spacing:-.045em}.accessible .hero h1{font-size:31px}}
